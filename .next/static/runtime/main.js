@@ -940,7 +940,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "C:\\Users\\LENOVO\\Desktop\\nextjs\\.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "C:\\Users\\LENOVO\\Desktop\\NextJs_application\\.next");
       return error;
     }
   };
