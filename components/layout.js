@@ -9,6 +9,7 @@ function Layout ({children}){
         <Head>
         <title>Web Page</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
             </Head>
              <Navigation/>
             
@@ -16,10 +17,9 @@ function Layout ({children}){
         {children}
         </main>
       
-       <footer>
-            
-            desing by Mert
-            </footer>
+        <footer class="py-4 bg-dark text-white text-center" >
+		Copyright © Your Website 2020 by MERT ERGÜDEN
+	       </footer>
         </div> 
       
      

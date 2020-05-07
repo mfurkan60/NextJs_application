@@ -9,57 +9,44 @@ function Home() {
      <Head>
         <title>About</title>
        </Head>
-       <h1>Welcome to about page js</h1>
+       <h1 className="text-center">Welcome to about page</h1>
     
     
     <div className="container">
-      <h1>About Me</h1>
-      <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lore</p>
-    
-    
-    
-     <img src="/profile.jpg" alt="my image" />
-    
-    
-      <style jsx>{`
-        .container {
-          margin: 50px;
-        width: 500px;
-        
-            
-        }
-        h1{
-        color:black;
-        text-align: center;
-        }
-        p {
-          color: black;
-        }
-      `}</style>
-      <style jsx global>{`
-        p {
-          font-size: 20px;
-        }
-      `}</style>
-    </div>
-     <div className="container">
-      <h1>Hello Next.js</h1>
-     
-      <style jsx>{`
-        .container {
-          margin: 50px;
-        }
-        p {
-          color: blue;
-        }
+      
+                    <div className="row  ">
 
-      `}</style>
+
+                    <div className="col-md-6">
+                        <div className="header-text  ">
+                            <div className="header">
+                                <h1>About Me</h1>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui incidunt asperiores soluta natus aliquid placeat alias rerum, quos facilis optio. Expedita minima quis voluptas quam alias provident itaque, sed odit.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui incidunt asperiores soluta natus aliquid placeat alias rerum, quos facilis optio. Expedita minima quis voluptas quam alias provident itaque, sed odit.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui incidunt asperiores soluta natus aliquid placeat alias rerum, quos facilis optio. Expedita minima quis voluptas quam alias provident itaque, sed odit.</p>
+                            
+
+                        </div>
+                    </div>
+                    <div className="col-md-4">
+
+                        <div className="">
+                            <img src="/profile2.jpg" alt="my image"/>
+                            </div>
+
+                    </div>
+                </div>
+     
+     
+      
       <style jsx global>{`
         p {
           font-size: 20px;
         }
       `}</style>
     </div>
+ 
        </Layout>
    </div>
 }   

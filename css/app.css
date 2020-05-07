@@ -10,5 +10,17 @@ nav a{
 
 img{
     height: 400px;
+    margin-top: 50px;
+    border-radius: 40px
     
+}
+
+#section1{
+    margin: auto;
+    margin-top: 10rem;
+     margin-right: 10px;
+    margin-bottom: 50px;
+}
+footer{
+    margin-top: 59px
 }
