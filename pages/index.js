@@ -1,7 +1,9 @@
 import Layout from '../components/layout'
 import Head from 'next/head'
+import unfetch  from 'isomorphic-unfetch'
 
-function Home() {
+
+function Home({charcter}) {
   return(
       <div>
       
@@ -13,5 +15,19 @@ function Home() {
        </Layout>
    </div>
 )}   
+
+
+export async function getStaticProps(context) {
+  
+    const data = await unfetch('https://rickandmortyapi.com/api/character/');
+    const charcter = await data.json();
+    return {
+    props: {
+        charcter
+        
+        
+    } // will be passed to the page component as props
+  }
+}
 
 export default Home

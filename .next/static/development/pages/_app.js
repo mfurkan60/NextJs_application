@@ -457,7 +457,7 @@ module.exports = __webpack_require__(/*! regenerator-runtime */ "./node_modules/
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(true);
 // Module
-exports.push([module.i, "body {\r\n    color:  ;\r\n}\r\nnav a{\r\n    margin: 10px;\r\n    text-decoration: none;\r\n    color: black\r\n}\r\n\r\n\r\n.container{\r\n  \r\n    \r\n}\r\n\r\n", "",{"version":3,"sources":["app.css"],"names":[],"mappings":"AAAA;IACI,QAAQ;AACZ;AACA;IACI,YAAY;IACZ,qBAAqB;IACrB;AACJ;;;AAGA;;;AAGA","file":"app.css","sourcesContent":["body {\r\n    color:  ;\r\n}\r\nnav a{\r\n    margin: 10px;\r\n    text-decoration: none;\r\n    color: black\r\n}\r\n\r\n\r\n.container{\r\n  \r\n    \r\n}\r\n\r\n"]}]);
+exports.push([module.i, "body {\r\n    color:  ;\r\n}\r\nnav a{\r\n    margin: 10px;\r\n    text-decoration: none;\r\n    color: black\r\n}\r\n\r\n\r\nimg{\r\n    height: 400px;\r\n    \r\n}\r\n", "",{"version":3,"sources":["app.css"],"names":[],"mappings":"AAAA;IACI,QAAQ;AACZ;AACA;IACI,YAAY;IACZ,qBAAqB;IACrB;AACJ;;;AAGA;IACI,aAAa;;AAEjB","file":"app.css","sourcesContent":["body {\r\n    color:  ;\r\n}\r\nnav a{\r\n    margin: 10px;\r\n    text-decoration: none;\r\n    color: black\r\n}\r\n\r\n\r\nimg{\r\n    height: 400px;\r\n    \r\n}\r\n"]}]);
 // Exports
 module.exports = exports;
 
@@ -3549,7 +3549,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _css_app_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../css/app.css */ "./css/app.css");
 /* harmony import */ var _css_app_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_css_app_css__WEBPACK_IMPORTED_MODULE_2__);
 
-var _jsxFileName = "C:\\Users\\LENOVO\\Desktop\\NextJs_application\\pages\\_app.js";
+var _jsxFileName = "C:\\Users\\LENOVO\\Documents\\GitHub\\NextJs_application\\pages\\_app.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
  // This default export is required in a new `pages/_app.js` file.
@@ -3577,7 +3577,7 @@ function MyApp(_ref) {
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! next-client-pages-loader?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js&hotRouterUpdates=true! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js&hotRouterUpdates=true!./");
-module.exports = __webpack_require__(/*! C:\Users\LENOVO\Desktop\NextJs_application\node_modules\next\dist\client\router.js */"./node_modules/next/dist/client/router.js");
+module.exports = __webpack_require__(/*! C:\Users\LENOVO\Documents\GitHub\NextJs_application\node_modules\next\dist\client\router.js */"./node_modules/next/dist/client/router.js");
 
 
 /***/ }),

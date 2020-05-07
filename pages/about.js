@@ -18,7 +18,7 @@ function Home() {
     
     
     
-    
+     <img src="/profile.jpg" alt="my image" />
     
     
       <style jsx>{`
@@ -44,7 +44,7 @@ function Home() {
     </div>
      <div className="container">
       <h1>Hello Next.js</h1>
-      <img src="/profile.jpg" alt="my image" />
+     
       <style jsx>{`
         .container {
           margin: 50px;
@@ -52,6 +52,7 @@ function Home() {
         p {
           color: blue;
         }
+
       `}</style>
       <style jsx global>{`
         p {
