@@ -20,8 +20,6 @@ npm run dev
 npm run build
 ```
 
-#### Homepage
-![1](https://user-images.githubusercontent.com/screehshots/img1.png)
 
 
 
